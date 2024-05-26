@@ -33,6 +33,10 @@ Product.init(
         isInt: true,
       },
     },
+    category_id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
   },
   {
     sequelize,
